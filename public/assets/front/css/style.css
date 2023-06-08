@@ -597,3 +597,16 @@ h5 {
     box-shadow: 0 0 0 0.25rem rgba(255, 98, 1, 0.2);
     border-color: rgba(255, 98, 1, 0.7);
 }
+
+@media screen and (max-width: 450px) {
+    .head-card-title{
+        right: 1rem;
+        width: 100%;
+    }
+}
+@media (min-width: 451px) and (max-width: 999px) {
+    .head-card-title{
+        right: 1rem;
+        width: 91%;
+    }
+}
