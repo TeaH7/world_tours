@@ -26,7 +26,7 @@
                         @if ($allTours->count())
                             @foreach ($allTours as $allTour)
                                 <div class="col-12 col-md-6 col-lg-4 mb-2">
-                                    <div class="card ms-0 me-0 mb-2 ms-md-2 me-md-2 tour-card shadow">
+                                    <div class="card ms-0 me-0 mb-2 ms-md-1 me-md-1 tour-card shadow">
                                         <div class="card__header">
                                             <div class="card-picture">
                                                 <div class="card-img-overlay">
@@ -99,15 +99,7 @@
 
                     <div class="row">
                         <div class="col-12">
-                            {{-- <nav aria-label="Page navigation example" class="d-flex justify-content-center">
-                                <ul class="pagination">
-                                    <li class="page-item"><a class="page-link" href="#">Previous</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">1</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">2</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">3</a></li>
-                                    <li class="page-item"><a class="page-link" href="#">Next</a></li>
-                                </ul>
-                            </nav> --}}
+
                             {{ $allTours->links() }}
                         </div>
                     </div>

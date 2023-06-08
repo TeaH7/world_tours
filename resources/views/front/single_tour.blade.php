@@ -18,28 +18,7 @@
                 </div>
             </div>
 
-            {{-- <div class="row">
-                <div class="col-12 d-flex">
-                    <div class="d-flex">
-                        <div class="me-2 star-icon">
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
-                            <i class="bi bi-star-fill"></i>
 
-                        </div>
-
-                        <div>
-                            <p>21 Reviews</p>
-                        </div>
-                    </div>
-
-                    <div class="ms-4">
-                        <span><i class="bi bi-geo-alt me-1"></i>{{ $tour->location }}</span>
-                    </div>
-                </div>
-            </div> --}}
         </div>
     </section>
 
@@ -109,15 +88,6 @@
                             <p class="mb-5" style="color: #697488;">{{ $tour->description }}</p>
                         </div>
 
-                        {{-- <div class="col-6">
-                            <h5 class="mb-3">What do you need to take with you?</h5>
-                            <span><i class="bi bi-check-lg me-2"></i>Passport</span>
-
-                        </div>
-                        <div class="col-6">
-                            <h5 class="mb-3">Min Age</h5>
-                            <span><i class="bi bi-check-lg me-2"></i>18</span>
-                        </div> --}}
 
                     </div>
                     <div class="border-top mt-4">

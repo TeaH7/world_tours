@@ -23,7 +23,7 @@
                         @if ($albaniaTours->count())
                             @foreach ($albaniaTours as $albaniaTour)
                                 <div class="col-12 col-lg-4 mb-2">
-                                    <div class="card mb-3 ms-3 me-3 tour-card shadow">
+                                    <div class="card mb-3 ms-1 me-1 tour-card shadow">
                                         <div class="card__header">
                                             <div class="card-picture">
                                                 <div class="card-img-overlay">

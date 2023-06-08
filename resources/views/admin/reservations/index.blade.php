@@ -35,7 +35,11 @@
                                     <td>{{ $reservation->phone }}</td>
                                     <td>{{ $reservation->nr_of_people }}</td>
                                     <td>{{ $reservation->tour->title }}</td>
-                                    <td>{{ $reservation->tourDate->start_date }}</td>
+                                    <td>{{ \Carbon\Carbon::createFromFormat('Y-m-d', $reservation->tourDate->start_date)->format('m-d') }}
+                                        /
+                                        {{ \Carbon\Carbon::createFromFormat('Y-m-d', $reservation->tourDate->end_date)->format('m-d') }}
+                                    </td>
+
                                     <td>
                                         <div class="dropdown">
                                             <button type="button" class="btn p-0 dropdown-toggle hide-arrow"
