@@ -39,12 +39,6 @@ Route::get('/rezultate', [FrontendController::class, 'search'])->name('search');
 
 
 
-// Route::get('/contact-us', function () {
-//     return view('front.contact');
-// })->name('contactUs');
-// Route::get('/single-page', function () {
-//     return view('front.single_tour');
-// });
 
 
 
@@ -64,5 +58,3 @@ Route::prefix('admin')->middleware('auth')->group(function () {
 });
 
 Auth::routes(['register' => false]);
-
-// Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');

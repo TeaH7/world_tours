@@ -15,8 +15,7 @@
                             <div>
                                 <label for="defaultFormControlInput" class="form-label">Tour Main Title</label>
                                 <input type="text" class="form-control @error('tour_type') is-invalid  @enderror"
-                                    id="defaultFormControlInput" placeholder="John Doe"
-                                    aria-describedby="defaultFormControlHelp" name="tour_type"
+                                    id="defaultFormControlInput" aria-describedby="defaultFormControlHelp" name="tour_type"
                                     value="{{ old('tour_type') }}" />
                                 @error('tour_type')
                                     <div class="invalid-feedback">
@@ -27,8 +26,8 @@
                             <div class="mt-3">
                                 <label for="defaultFormControlInput" class="form-label">Title</label>
                                 <input type="text" class="form-control @error('title') is-invalid  @enderror"
-                                    id="defaultFormControlInput" placeholder="John Doe"
-                                    aria-describedby="defaultFormControlHelp" name="title" value="{{ old('title') }}" />
+                                    id="defaultFormControlInput" aria-describedby="defaultFormControlHelp" name="title"
+                                    value="{{ old('title') }}" />
                                 @error('title')
                                     <div class="invalid-feedback">
                                         {{ $message }}
@@ -136,9 +135,8 @@
                                         <label for="defaultFormControlInput" class="form-label">Detail 1</label>
                                         <input type="text"
                                             class="form-control @error('details1') is-invalid  @enderror"
-                                            id="defaultFormControlInput" placeholder="John Doe"
-                                            aria-describedby="defaultFormControlHelp" name="details1"
-                                            value="{{ old('details1') }}" />
+                                            id="defaultFormControlInput" aria-describedby="defaultFormControlHelp"
+                                            name="details1" value="{{ old('details1') }}" />
                                         @error('details1')
                                             <div class="invalid-feedback">
                                                 {{ $message }}
@@ -152,9 +150,8 @@
                                         <label for="defaultFormControlInput" class="form-label">Detail 2</label>
                                         <input type="text"
                                             class="form-control @error('details2') is-invalid  @enderror"
-                                            id="defaultFormControlInput" placeholder="John Doe"
-                                            aria-describedby="defaultFormControlHelp" name="details2"
-                                            value="{{ old('details2') }}" />
+                                            id="defaultFormControlInput" aria-describedby="defaultFormControlHelp"
+                                            name="details2" value="{{ old('details2') }}" />
                                         @error('details2')
                                             <div class="invalid-feedback">
                                                 {{ $message }}
@@ -170,9 +167,8 @@
                                         <label for="defaultFormControlInput" class="form-label">Detail 3</label>
                                         <input type="text"
                                             class="form-control @error('details3') is-invalid  @enderror"
-                                            id="defaultFormControlInput" placeholder="John Doe"
-                                            aria-describedby="defaultFormControlHelp" name="details3"
-                                            value="{{ old('details3') }}" />
+                                            id="defaultFormControlInput" aria-describedby="defaultFormControlHelp"
+                                            name="details3" value="{{ old('details3') }}" />
                                         @error('details3')
                                             <div class="invalid-feedback">
                                                 {{ $message }}
@@ -186,9 +182,8 @@
                                         <label for="defaultFormControlInput" class="form-label">Detail 4</label>
                                         <input type="text"
                                             class="form-control @error('details4') is-invalid  @enderror"
-                                            id="defaultFormControlInput" placeholder="John Doe"
-                                            aria-describedby="defaultFormControlHelp" name="details4"
-                                            value="{{ old('details4') }}" />
+                                            id="defaultFormControlInput" aria-describedby="defaultFormControlHelp"
+                                            name="details4" value="{{ old('details4') }}" />
                                         @error('details4')
                                             <div class="invalid-feedback">
                                                 {{ $message }}
@@ -204,9 +199,8 @@
                                         <label for="defaultFormControlInput" class="form-label">Detail 5</label>
                                         <input type="text"
                                             class="form-control @error('details5') is-invalid  @enderror"
-                                            id="defaultFormControlInput" placeholder="John Doe"
-                                            aria-describedby="defaultFormControlHelp" name="details5"
-                                            value="{{ old('details5') }}" />
+                                            id="defaultFormControlInput" aria-describedby="defaultFormControlHelp"
+                                            name="details5" value="{{ old('details5') }}" />
                                         @error('details5')
                                             <div class="invalid-feedback">
                                                 {{ $message }}

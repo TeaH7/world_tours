@@ -60,7 +60,7 @@
 
                                         </div>
                                         <div class="card-footer pt-3">
-                                            <div class="d-flex justify-content-between align-items-center px-3 my-3">
+                                            <div class="d-flex justify-content-between align-items-center px-2 my-2">
                                                 <div>
                                                     <p class="m-0">
                                                         <span class="value">
@@ -69,13 +69,7 @@
                                                         <span class="value-text">
                                                             per Person</span>
                                                     </p>
-                                                    <p class="ratings m-0">
-                                                        <span class="value">
-                                                            4.9
-                                                        </span>
-                                                        <span class="value-text">
-                                                            rating (21)</span>
-                                                    </p>
+
                                                 </div>
 
 

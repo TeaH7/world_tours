@@ -81,7 +81,6 @@ class FrontendController extends Controller
         $available = Tour::where('id', $data['tour_id'])->first();
 
 
-
         $currentNumber = $available->max_persons - (int)$reserved;
 
         if ($currentNumber >= (int)$data['nr_of_people']) {
@@ -127,6 +126,7 @@ class FrontendController extends Controller
 
         return redirect()->back()->with('success', 'Mesazhi u dergua.');
     }
+
 
 
     public function search(Request $request)
